@@ -70,11 +70,22 @@ conda install numpy
 ```
 
 ### Directory Structure
-├── data/
-│   ├── indian_employee_data.csv          # Raw data input
-│   └── cleaned_indian_employee_data.csv  # Final output
-├── data_cleaning_pipeline.ipynb             # Main cleaning notebook
-└── README.md                             # Documentation
+```plaintext
+├── Data/
+│   ├── cleaned_indian_employee_data.csv    # Final output dataset
+│   └── indian_employee_data.csv            # Raw data input
+├── images/
+│   ├── Pivot1_Analysis.png                 # Department performance snapshot
+│   ├── Pivot2_Analysis.png                 # Salary vs. experience correlation
+│   └── Pivot3_Analysis.png                 # Regional headcount metrics
+├── media/
+│   └── Presentation.gif                    # Dashboard walkthrough animation
+├── .gitignore                              # Git untracked files configuration
+├── data_cleaning.ipynb                     # Main data cleaning pipeline
+├── Employee Data Dashboard.xlsx            # Interactive Excel workbook
+├── pipeline_design.jpg                     # Pipeline architecture diagram
+└── README.md                               # Project documentation
+```
 
 ### Execution
 Run the main cleaning notebook to clean the data and automatically export the sanitized dataset.
