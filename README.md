@@ -42,8 +42,11 @@ The pipeline implements Strategic Missing Value Imputation and statistical outli
 * **City**: Filled via the Mode (the mot frequent occuring city in the dataset).
 
 #### 4. Outlier Detection ($3\sigma$ Rule)
-The Pipeline maps outlier boundaries using the emperical standard deviation rule ($\pm 3$ standard deviations from the mean):
-$$\text{Lower Bound} = \mu - 3\sigma $$$$ \text{Upper Bound} = \mu + 3\sigma$$
+The Pipeline maps outlier boundaries using the empirical standard deviation rule ($\pm 3$ standard deviations from the mean):
+
+$$\text{Lower Bound} = \mu - 3\sigma$$
+
+$$\text{Upper Bound} = \mu + 3\sigma$$
 
 * Calculated Mean ($\mu$): 1,098,516.20 INR
 * Calculated Std Dev ($\sigma$): 282,382.04 INR
