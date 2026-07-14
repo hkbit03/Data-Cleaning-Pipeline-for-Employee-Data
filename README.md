@@ -50,7 +50,7 @@ $$\text{Lower Bound} = \mu - 3\sigma $$$$ \text{Upper Bound} = \mu + 3\sigma$$
 * Valid Statistical Salary Range: [251,370.07 to 1,945,662.33] INR
 * Outliers Flagged: 1 extreme record detected.
 
-![Pipeline Architecute](pipeline_design.jpg)
+![Pipeline Architecute](images/pipeline_design.jpg)
 
 
 ## How to Run the Project
@@ -78,12 +78,12 @@ conda install numpy
 │   ├── Pivot1_Analysis.png                 # Department performance snapshot
 │   ├── Pivot2_Analysis.png                 # Salary vs. experience correlation
 │   └── Pivot3_Analysis.png                 # Regional headcount metrics
+│   └── Pipeline_design.jpg                 # Pipeline architecture diagram
 ├── media/
 │   └── Presentation.gif                    # Dashboard walkthrough animation
 ├── .gitignore                              # Git untracked files configuration
 ├── data_cleaning.ipynb                     # Main data cleaning pipeline
-├── Employee Data Dashboard.xlsx            # Interactive Excel workbook
-├── pipeline_design.jpg                     # Pipeline architecture diagram
+├── Employee Data Dashboard.xlsx            # Interactive Excel workbook     
 └── README.md                               # Project documentation
 ```
 
