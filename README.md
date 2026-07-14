@@ -82,8 +82,7 @@ conda install numpy
 ├── media/
 │   └── Presentation.gif                    # Dashboard walkthrough animation
 ├── .gitignore                              # Git untracked files configuration
-├── data_cleaning.ipynb                     # Main data cleaning pipeline
-├── Employee Data Dashboard.xlsx            # Interactive Excel workbook     
+├── data_cleaning.ipynb                     # Main data cleaning pipeline 
 └── README.md                               # Project documentation
 ```
 
